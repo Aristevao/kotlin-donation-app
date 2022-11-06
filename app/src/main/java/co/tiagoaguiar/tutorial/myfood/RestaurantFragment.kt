@@ -33,9 +33,9 @@ class RestaurantFragment : Fragment(R.layout.fragment_restaurant) {
     )
 
     bannerAdapter.items = arrayListOf(
-      Banner(1, "https://static-images.ifood.com.br/image/upload/t_high/discoveries/itensBasicosNOV21Principal_zE1X.png"),
-      Banner(2, "https://static-images.ifood.com.br/image/upload/t_high/discoveries/Bebidas40offPrincipal_cljA.png"),
-      Banner(3, "https://static-images.ifood.com.br/image/upload/t_high/discoveries/MerceariaeMatinaisPrincipal_mfDO.png"),
+      Banner(1, "https://fernandessouza.com.br/wp-content/uploads/2018/06/dia-mundial-do-doador-de-sangue-1024x1024.jpg"),
+      Banner(2, "https://www.saude.ce.gov.br/wp-content/uploads/sites/9/2019/02/banner_doacao_sangue_hrsc.jpg"),
+      Banner(2, "https://portalamm.org.br/wp-content/uploads/aebacd62-1e6d-463e-88f3-296a739607c6.jpeg"),
     )
 
     moreShopAdapter.items = arrayListOf(
