@@ -40,12 +40,12 @@
         app:layout_constraintStart_toStartOf="@id/txt_shop"
         app:layout_constraintTop_toBottomOf="@id/txt_shop"
         tools:text="8 km"
-        app:drawableStartCompat="@drawable/ic_baseline_star_18"
-        android:textColor="@color/gold"
+        app:drawableStartCompat="@drawable/ic_place_small"
+        android:textColor="@color/red"
         android:textSize="14sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:drawableTint="@color/gold" />
+        app:drawableTint="@color/red" />
 
 
     <TextView
