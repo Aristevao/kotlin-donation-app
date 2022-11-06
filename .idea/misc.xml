@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/vntarto/Downloads/MyFood/main/tutorial-myfood-android-main/app/src/main/res/font/sulsans.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/vntarto/Downloads/MyFood/main/tutorial-myfood-android-main/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/vntarto/Downloads/MyFood/main/tutorial-myfood-android-main/app/src/main/res/layout/banner_item.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/vntarto/Downloads/MyFood/main/tutorial-myfood-android-main/app/src/main/res/layout/category_item.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/vntarto/Downloads/MyFood/main/tutorial-myfood-android-main/app/src/main/res/layout/chip_choice.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/vntarto/Downloads/MyFood/main/tutorial-myfood-android-main/app/src/main/res/layout/fragment_restaurant.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/vntarto/Downloads/MyFood/main/tutorial-myfood-android-main/app/src/main/res/layout/more_shop_item.xml" value="0.22447916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
