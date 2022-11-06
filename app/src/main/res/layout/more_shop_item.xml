@@ -33,13 +33,13 @@
         android:textSize="16sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Teste de loja" />
+        tools:text="Fundação Pró-Sangue" />
 
     <TextView
         android:id="@+id/txt_star"
         app:layout_constraintStart_toStartOf="@id/txt_shop"
         app:layout_constraintTop_toBottomOf="@id/txt_shop"
-        tools:text="4,4"
+        tools:text="8 km"
         app:drawableStartCompat="@drawable/ic_baseline_star_18"
         android:textColor="@color/gold"
         android:textSize="14sp"
@@ -52,7 +52,7 @@
         android:id="@+id/txt_subtitle"
         app:layout_constraintStart_toEndOf="@id/txt_star"
         app:layout_constraintTop_toTopOf="@id/txt_star"
-        tools:text="\u2022 Pizza \u2022 11,2 km"
+        tools:text="\u2022 Araras/SP \u2022 Jardim Alvorada"
         android:layout_marginStart="10dp"
         android:textSize="14sp"
         android:layout_width="wrap_content"
@@ -65,7 +65,7 @@
         app:layout_constraintStart_toStartOf="@id/txt_star"
         app:layout_constraintTop_toBottomOf="@id/txt_star"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:text="60-70 min \u2022 R$22,00"
+        tools:text="R. Avenida Pereira Inácio, 564"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
