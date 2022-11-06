@@ -2,7 +2,6 @@
     <string name="app_name">MyFood</string>
     <string name="home">Início</string>
     <string name="map">Mapa</string>
-    <string name="others">Outros</string>
     <string name="dotted">&#8226;</string>
     <string name="see_more">Ver mais</string>
     <string name="shop_category">\u2022 %1$s</string>

@@ -35,10 +35,11 @@
             android:id="@+id/add_tab"
             app:tabTextAppearance="@style/MyFoodTabLayoutTextAppearance"
             android:layout_width="wrap_content"
+            android:layout_gravity="center"
             android:layout_height="wrap_content"
             app:tabIndicatorColor="@color/red"
             app:tabIndicatorFullWidth="false"
-            app:tabIndicatorHeight="1dp"
+            app:tabIndicatorHeight="4dp"
             app:tabMode="auto"
             app:tabSelectedTextColor="@color/red"
             app:tabTextColor="@color/gray" />
