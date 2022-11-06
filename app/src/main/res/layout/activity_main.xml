@@ -19,18 +19,16 @@
             <Button
                 android:layout_width="wrap_content"
                 style="@style/MyFoodButtonStyle"
-                android:text="R. São José - 638"
-                android:textSize="13sp"
-                android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_down_24"
+                android:text="Catarina Souza"
+                android:textSize="17sp"
                 android:layout_height="wrap_content" />
 
             <ImageView
-                android:src="@drawable/ic_place"
+                android:src="@drawable/ic_profile_logo"
                 android:layout_gravity="end"
                 android:paddingHorizontal="16dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:tint="@color/red" />
+                android:layout_width="65dp"
+                android:layout_height="65dp" />
         </androidx.appcompat.widget.Toolbar>
 
         <com.google.android.material.tabs.TabLayout

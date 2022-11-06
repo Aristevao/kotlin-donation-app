@@ -26,10 +26,10 @@ class RestaurantFragment : Fragment(R.layout.fragment_restaurant) {
 
     // TODO: Atualizar imagens.
     categoryAdapter.items = arrayListOf(
-      Category(1, "https://www.ifood.com.br/static/images/categories/market.png", "Vidas Salvas: 8", 0xFFB6D048),
-      Category(2, "https://www.ifood.com.br/static/images/categories/restaurant.png", "Apto para doar: 12/Dez", 0xFFE91D2D),
-      Category(3, "https://www.ifood.com.br/static/images/categories/drinks.png", "Qtd doações: 2", 0xFFF6D553),
-      Category(4, "https://static-images.ifood.com.br/image/upload/f_auto/webapp/landingV2/express.png", "Tipo Sanguíneo: O+", 0xFFFF0000),
+      Category(1, "https://cdn-icons-png.flaticon.com/512/2077/2077524.png", "Vidas Salvas: 8", 0xFFB6D048),
+      Category(2, "https://cdn-icons-png.flaticon.com/512/3652/3652191.png", "Apto para doar: 12/Dez", 0xFFE91D2D),
+      Category(3, "https://cdn-icons-png.flaticon.com/512/1056/1056542.png", "Qtd doações: 2", 0xFFF6D553),
+      Category(4, "https://cdn-icons-png.flaticon.com/512/4264/4264896.png", "Tipo Sanguíneo: O+", 0xFFFF0000),
     )
 
     bannerAdapter.items = arrayListOf(
