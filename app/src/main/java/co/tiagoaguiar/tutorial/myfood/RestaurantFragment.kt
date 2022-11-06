@@ -24,12 +24,11 @@ class RestaurantFragment : Fragment(R.layout.fragment_restaurant) {
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
     super.onViewCreated(view, savedInstanceState)
 
-    // TODO: Atualizar imagens.
     categoryAdapter.items = arrayListOf(
-      Category(1, "https://cdn-icons-png.flaticon.com/512/2077/2077524.png", "Vidas Salvas: 8", 0xFFB6D048),
-      Category(2, "https://cdn-icons-png.flaticon.com/512/3652/3652191.png", "Apto para doar: 12/Dez", 0xFFE91D2D),
-      Category(3, "https://cdn-icons-png.flaticon.com/512/1056/1056542.png", "Qtd doações: 2", 0xFFF6D553),
-      Category(4, "https://cdn-icons-png.flaticon.com/512/4264/4264896.png", "Tipo Sanguíneo: O+", 0xFFFF0000),
+      Category(1, "https://cdn-icons-png.flaticon.com/512/2077/2077524.png", "Vidas Salvas: 8", 0xFFFFFF),
+      Category(2, "https://cdn-icons-png.flaticon.com/512/3652/3652191.png", "Apto para doar: 12/Dez", 0xFFFFFF),
+      Category(3, "https://cdn-icons-png.flaticon.com/512/1056/1056542.png", "Qtd doações: 2", 0xFFFFFF),
+      Category(4, "https://cdn-icons-png.flaticon.com/512/4264/4264896.png", "Tipo Sanguíneo: O+", 0xFFFFFF),
     )
 
     bannerAdapter.items = arrayListOf(

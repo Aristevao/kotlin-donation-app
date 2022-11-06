@@ -28,7 +28,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:paddingTop="8dp"
-        android:text="Mercado"
+        android:text="Aba Exemplo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
