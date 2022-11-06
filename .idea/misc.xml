@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/vntarto/Downloads/MyFood/main/tutorial-myfood-android-main/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.111" />
+        <entry key="..\:/Users/vntarto/Downloads/MyFood/main/tutorial-myfood-android-main/app/src/main/res/drawable/ic_baseline_qr_code_scanner_24.xml" value="0.111" />
         <entry key="..\:/Users/vntarto/Downloads/MyFood/main/tutorial-myfood-android-main/app/src/main/res/font/sulsans.xml" value="0.20092592592592592" />
         <entry key="..\:/Users/vntarto/Downloads/MyFood/main/tutorial-myfood-android-main/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
         <entry key="..\:/Users/vntarto/Downloads/MyFood/main/tutorial-myfood-android-main/app/src/main/res/layout/banner_item.xml" value="0.22447916666666667" />
