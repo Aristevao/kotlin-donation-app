@@ -38,13 +38,13 @@ class RestaurantFragment : Fragment(R.layout.fragment_restaurant) {
     )
 
     moreShopAdapter.items = arrayListOf(
-      MoreShop(1, "https://health.gov.tt/sites/default/files/styles/large/public/inline-images/Blood%20Bank%20logo%202022-03.png?itok=0H-a6QNb", "Fundação Pró-Sangue","Araras/SP", 8.20, "Av. Zurita, 64", "Jardin Alvorada"),
-      MoreShop(3, "https://e7.pngegg.com/pngimages/833/894/png-clipart-blood-donation-blood-transfusion-organ-donation-blood-miscellaneous-logo.png", "Hemocentro HSP Unifesp",  "Araras/SP", 10.27, "R. Pedro Vargas, 98", "Copacanana"),
-      MoreShop(2, "https://png.pngtree.com/png-clipart/20200701/original/pngtree-world-blood-donation-day-creative-cute-blood-drop-png-image_5357614.jpg", "Hemocentro da Santa Casa",  "Araras/SP", 14.24, "R. Maria Rosa, 12", "José Ometto"),
-      MoreShop(4, "https://st2.depositphotos.com/1017986/8169/i/450/depositphotos_81693086-stock-photo-female-hands-holding-red-heart.jpg", "Hemocentro São Lucas",  "Araras/SP", 19.55, "Av. Carlos Tunes, 113", "Centro"),
+      MoreShop(1, "https://health.gov.tt/sites/default/files/styles/large/public/inline-images/Blood%20Bank%20logo%202022-03.png?itok=0H-a6QNb", "ETEC Prefeito Alberto Feres","Araras/SP", 8.20, "R. César Vergueiro, 690", "Jardim Candida"),
+      MoreShop(3, "https://e7.pngegg.com/pngimages/833/894/png-clipart-blood-donation-blood-transfusion-organ-donation-blood-miscellaneous-logo.png", "Hospital São Luiz",  "Araras/SP", 10.27, "R. Armando S. de Oliveira, 110", "Centro"),
+      MoreShop(2, "https://png.pngtree.com/png-clipart/20200701/original/pngtree-world-blood-donation-day-creative-cute-blood-drop-png-image_5357614.jpg", "Hemocentro HSP Unifesp",  "Conchal/SP", 14.24, "Av. Nelson Cunha, 12", "Santo Antônio"),
+      MoreShop(4, "https://st2.depositphotos.com/1017986/8169/i/450/depositphotos_81693086-stock-photo-female-hands-holding-red-heart.jpg", "Hemocentro São Lucas",  "Leme/SP", 19.55, "Av. Júlia Magnusson, 113", "Esperança"),
       MoreShop(5, "https://banner2.cleanpng.com/20180522/yeh/kisspng-blood-donation-blood-bank-ink-vector-5b04445aafa538.1655375715270062987195.jpg", "COLSAN - Posto de Coleta",  "Rio Claro/SP", 25.0, "R. Hugo Campos, 57", "Vila Lobos"),
-      MoreShop(7, "https://www.nicepng.com/png/detail/117-1179838_blood-donation-camp-blood-donation-logo-png.png", "Hospital Santa Marcelina",  "Leme/SP", 27.3, "R. Luíza Silva, 32", "Marimbondo"),
-      MoreShop(6, "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_-s4tGFzOEA3GJGJeROiX90eHkUwrVeEiS2DMr8zVEslegACkj1wRZDujJ94Ql9hhIkY&usqp=CAU", "Hemocentro Suzano",  "Conchal/SP", 29.9, "R. Ana Ramos, 872", "Cascata"),
+      MoreShop(7, "https://www.nicepng.com/png/detail/117-1179838_blood-donation-camp-blood-donation-logo-png.png", "Hospital Santa Marcelina",  "Rio Claro/SP", 27.3, "Av. Luíza Morete, 32", "Vivaldini"),
+      MoreShop(6, "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_-s4tGFzOEA3GJGJeROiX90eHkUwrVeEiS2DMr8zVEslegACkj1wRZDujJ94Ql9hhIkY&usqp=CAU", "Hemocentro Suzano",  "Cordeirópolis/SP", 29.9, "R. Ana Bonini, 872", "Piraporinha"),
     )
 
     binding = FragmentRestaurantBinding.bind(view)
