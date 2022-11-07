@@ -19,7 +19,7 @@
             <Button
                 android:layout_width="wrap_content"
                 style="@style/MyFoodButtonStyle"
-                android:text="Catarina Souza"
+                android:text="Caroline Souza"
                 android:textSize="17sp"
                 android:layout_height="wrap_content" />
 
