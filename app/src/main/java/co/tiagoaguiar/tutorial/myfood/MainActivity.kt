@@ -11,43 +11,43 @@ import com.google.android.material.tabs.TabLayoutMediator
 
 class MainActivity : AppCompatActivity() {
 
-  private lateinit var binding: ActivityMainBinding
+    private lateinit var binding: ActivityMainBinding
 
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
 
-    binding = ActivityMainBinding.inflate(layoutInflater)
+        binding = ActivityMainBinding.inflate(layoutInflater)
 
-    setContentView(binding.root)
+        setContentView(binding.root)
 
-    setupViews()
-  }
+        setupViews()
+    }
 
-  private fun setupViews() {
-    val tabLayout = binding.addTab
-    val viewPager = binding.addViewpager
-    val adapter = TabViewPagerAdapter(this)
-    viewPager.adapter = adapter
-    viewPager.isUserInputEnabled = false
+    private fun setupViews() {
+        val tabLayout = binding.addTab
+        val viewPager = binding.addViewpager
+        val adapter = TabViewPagerAdapter(this)
+        viewPager.adapter = adapter
+        viewPager.isUserInputEnabled = false
 
-    TabLayoutMediator(tabLayout, viewPager) { tab, position ->
-      tab.text = getString(adapter.tabs[position])
-    }.attach()
-  }
+        TabLayoutMediator(tabLayout, viewPager) { tab, position ->
+            tab.text = getString(adapter.tabs[position])
+        }.attach()
+    }
 
 }
 
 
 class TabViewPagerAdapter(fa: FragmentActivity) : FragmentStateAdapter(fa) {
 
-  val tabs = arrayOf(R.string.home, R.string.map)
-  val fragments = arrayOf(RestaurantFragment(), MarketplaceFragment())
+    val tabs = arrayOf(R.string.home, R.string.map)
+    val fragments = arrayOf(RestaurantFragment(), MarketplaceFragment())
 
-  override fun getItemCount() = fragments.size
+    override fun getItemCount() = fragments.size
 
-  override fun createFragment(position: Int): Fragment {
-    return fragments[position]
-  }
+    override fun createFragment(position: Int): Fragment {
+        return fragments[position]
+    }
 }
 
 

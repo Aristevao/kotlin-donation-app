@@ -4,80 +4,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
+    android:layout_marginHorizontal="2dp"
     android:layout_marginVertical="10dp"
     android:gravity="center"
-    android:layout_marginHorizontal="2dp">
+    android:orientation="vertical">
 
     <com.google.android.material.imageview.ShapeableImageView
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         android:id="@+id/img_shop"
-        android:scaleType="centerCrop"
-        android:padding="4dp"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="#FF0000"
+        android:padding="4dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:shapeAppearanceOverlay="@style/rounded_shop"
         app:strokeColor="@color/lt_gray"
         app:strokeWidth="3dp" />
 
     <TextView
         android:id="@+id/txt_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@id/img_shop"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="8dp"
-        android:layout_marginStart="10dp"
-        android:textAlignment="center"
-        android:textSize="16sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         tools:text="Fundação Pró-Sangue" />
 
     <TextView
         android:id="@+id/txt_star"
-        app:layout_constraintStart_toStartOf="@id/txt_shop"
-        app:layout_constraintTop_toBottomOf="@id/txt_shop"
-        tools:text="8 km"
-        app:drawableStartCompat="@drawable/ic_place_small"
-        android:textColor="@color/red"
-        android:textSize="14sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:drawableTint="@color/red" />
+        android:textColor="@color/red"
+        android:textSize="14sp"
+        app:drawableStartCompat="@drawable/ic_place_small"
+        app:drawableTint="@color/red"
+        app:layout_constraintStart_toStartOf="@id/txt_shop"
+        app:layout_constraintTop_toBottomOf="@id/txt_shop"
+        tools:text="8 km" />
 
 
     <TextView
         android:id="@+id/txt_subtitle"
-        app:layout_constraintStart_toEndOf="@id/txt_star"
-        app:layout_constraintTop_toTopOf="@id/txt_star"
-        tools:text="\u2022 Araras/SP \u2022 Jardim Alvorada"
-        android:layout_marginStart="10dp"
-        android:textSize="14sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-         />
+        android:layout_marginStart="10dp"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@id/txt_star"
+        app:layout_constraintTop_toTopOf="@id/txt_star"
+        tools:text="\u2022 Araras/SP \u2022 Jardim Alvorada" />
 
 
     <TextView
         android:id="@+id/txt_price"
-        app:layout_constraintStart_toStartOf="@id/txt_star"
-        app:layout_constraintTop_toBottomOf="@id/txt_star"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:text="R. Avenida Pereira Inácio, 564"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@id/txt_star"
+        app:layout_constraintTop_toBottomOf="@id/txt_star"
+        tools:text="R. Avenida Pereira Inácio, 564" />
 
     <ImageView
         android:id="@+id/img_favorite"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginEnd="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:src="@drawable/ic_baseline_favorite_border_24"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/ic_baseline_favorite_border_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
